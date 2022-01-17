@@ -1,0 +1,58 @@
+public class HomeWorkApp {
+    public static void main (String[] args) {
+        
+	//part1,2
+
+        PrintThreeWorlds();
+        compareNumbers();
+    }
+    public static void PrintThreeWorlds() {
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
+    }
+
+
+
+
+    /*
+    //part 3
+     CheckSumSign();
+    }
+        public static void CheckSumSign(){
+            int a=5;
+            int b=2;
+            if (a+b>= 0)
+                System.out.println("Сумма положительная");
+            else
+                System.out.println("Сумма отрицательная");
+        }
+       */
+        /*
+        //part 4
+        printColor();
+    }
+        public static void printColor(){
+            Integer value;
+            value = 67;
+            if (value<=0 )
+                System.out.println("Красный");
+            if (value>0 && value<=100)
+                System.out.println("Желтый");
+            else
+                System.out.println("Зеленый");
+        }
+         */
+
+        //part 5
+
+    
+        public static void compareNumbers() {
+            int a = 3;
+            int b = 8;
+            if (a >= b)
+                System.out.println("a>=b");
+            else
+                System.out.println("a<b");
+        }
+    }
